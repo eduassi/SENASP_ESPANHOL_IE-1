@@ -45,13 +45,28 @@ section {
   margin-left: 20px;
 }
 
-/* NOVO */
-.color-light{
+.bordered-row-senasp{
+  border: 2pt solid var(--THEME_COLOR_MODULE_ONE);
+  border-radius: 15px;
+  margin:0;
+}
+.align-text-center{
+  text-align: center;
+}
+
+.color-light {
   color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
 }
 
 /* NOVO */
-.modal-body {
-  padding: 0 1rem;
-  margin-top: 0;
+.aos-rw{
+  position: relative;
+  width: 100%;
+}
+/* NOVO */
+.aos-pa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

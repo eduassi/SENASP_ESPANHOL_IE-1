@@ -7,7 +7,7 @@
 
 body {
 	overflow-y: scroll;
-	overflow-x: none;
+	overflow-x: hidden;
 	margin-top: 150px;
 	font-size: 19px;
 }
@@ -15,19 +15,19 @@ a {
 	overflow-wrap: break-word;
 }
 
-/* NOVO */
 a.box-dest {
-	color: #000;
-	font-weight: bold !important;
+	/* background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT) !important; */
+	/* color: #000 !important; */
 	color: var(--THEME_COLOR_MODULE_ONE) !important;
+	font-weight: bold !important;
+	/* border: 1px dashed #ff9741 !important; */
 	cursor: pointer;
 	text-decoration: underline !important;
 }
-/* NOVO */
-a.box-dest:hover {	
-	color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
-}
 
+a.box-dest:hover {
+    color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
+}
 .nav-bar {
 	position: fixed;
 	z-index: 99;
@@ -56,9 +56,8 @@ a.box-dest:hover {
 	background: #6b8e23;
 }
 
-
-a.btn-atividade img:hover{
-	content: url('../../assets/images/identity/atividades-btn-hover.png');
+a.btn-atividade img:hover {
+	content: url("../../assets/images/identity/atividades-btn-hover.png");
 }
 
 #sidebar-wrapper {

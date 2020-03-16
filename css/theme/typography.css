@@ -255,7 +255,6 @@ figcaption {
   );
 }
 
-/* NOVO */
 .modulo_1 h2,
 .modulo_2 h2,
 .modulo_3 h2,
@@ -265,10 +264,9 @@ figcaption {
   background-size: 80px 3px;
   background-repeat: no-repeat;
   padding-top: 10px;
-  margin-top: 2rem;
+  margin-top: 80px;
   font-weight: bold;
   font-size: 20pt;
-  margin-top:80px;
 }
 
 /*  H3  */
@@ -304,7 +302,6 @@ figcaption {
   );
 }
 
-/* NOVO */
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
@@ -320,7 +317,8 @@ figcaption {
 
 /*  H4  */
 .modulo_1 h4 {
-  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+  color: var(--THEME_COLOR_MODULE_ONE);
+  margin-top: 80px;
 }
 
 .modulo_2 h4 {

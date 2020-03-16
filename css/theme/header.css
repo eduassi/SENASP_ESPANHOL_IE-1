@@ -180,7 +180,9 @@ a.capitulo-link {
 	.btn-menu::after {
 		min-height: 60px;
 	}
-	
+	.capitulos-header {
+		display: none;
+	}
 	.logo-pdf{
 		max-width: 40px;
 		margin-right: 10px;
@@ -202,6 +204,8 @@ a.capitulo-link {
 		width: 30px;
 	}
 }
+
+
 
 a.btn-menu {
 	text-decoration: none !important;

@@ -210,6 +210,7 @@ figcaption {
   );
 }
 
+/* NOVO*/
 .modulo_1 h1,
 .modulo_2 h1,
 .modulo_3 h1,
@@ -320,7 +321,8 @@ figcaption {
 
 /*  H4  */
 .modulo_1 h4 {
-  color: var(--THEME_COLOR_MODULE_ONE_STRONG);
+  color: var(--THEME_COLOR_MODULE_ONE);
+  margin-top:50px;
 }
 
 .modulo_2 h4 {

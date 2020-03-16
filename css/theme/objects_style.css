@@ -57,6 +57,14 @@
     margin: 0;
 }
 
+/* NOVO */
+.caixa-destaque p{ 
+    /* margin-bottom: 0; */
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    color:rgb(105, 105, 105);
+}
+
 .box-interno h5 {
     margin-bottom: 10px;
 }
@@ -202,12 +210,32 @@
     margin-bottom: 30px;
 }
 
+
+
 /* NOVO */
 .caixa-destaque p{ 
     /* margin-bottom: 0; */
     font-family: "Roboto Slab", serif;
     font-size: 17px;
     color:rgb(105, 105, 105);
+}
+
+/* NOVO */
+.caixa-destaque-title{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    top:-15px;
+    right: 20px;
+    background: white;
+    font-family: 'Roboto Slab', serif;
+    color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+    /* border: 3px solid var(--THEME_COLOR_MODULE_ONE); */
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 24px; 
+    z-index:3;
   }
 
 .caixa-destaque-icone {
@@ -229,23 +257,7 @@
     height: 100%;
 }
 
-/* NOVO */
-.caixa-destaque-title{
-    position: absolute;
-    width: 150px;
-    height: 30px;
-    top:-15px;
-    right: 20px;
-    background: white;
-    font-family: 'Roboto Slab', serif;
-    color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
-    /* border: 3px solid var(--THEME_COLOR_MODULE_ONE); */
-    text-align: center;
-    line-height: 22px;
-    font-weight: 400;
-    font-size: 24px; 
-    z-index:3;
-  }
+
 
 .saiba-mais {
     border: 3px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
@@ -269,7 +281,7 @@
 
 .especialista .caixa-destaque-title {
     color: var(--THEME_COLOR_MODULE_ONE);
-    width: 210px;
+    width: 280px;
 }
 
 .patch {
@@ -292,6 +304,7 @@
     background-repeat: no-repeat;
     border: none;
     margin-bottom: 30px;
+    
 }
 
 .citacao div {
@@ -304,6 +317,7 @@
 .citacao p {
     color: #5f7b87 !important;
     margin-bottom: 0;
+    font-style: italic;
 }
 
 .box-destaque {
@@ -1467,6 +1481,11 @@ ul.sl-bullet li::before {
     color: white !important;
 }
 
+.nav-item>a {
+    background-color: #e8ecee !important;
+    border-color: white !important;
+}
+
 .nav-tabs {
     margin-bottom: 0 !important;
 }
@@ -1725,8 +1744,8 @@ a.nav-link {
 }
 
 .split-list .ball-txt div {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     padding: 40%;
     background: var(--THEME_COLOR_MODULE_ONE_STRONG);
     border-radius: 100%;
@@ -1782,8 +1801,8 @@ a.nav-link {
 
 .split-list .btn-ret div {
     width: 100%;
-    min-height: 60px;
-    background: var(--THEME_COLOR_MODULE_ONE_STRONG);
+    height: 110px;
+    background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
     border-radius: 6px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -1795,92 +1814,6 @@ a.nav-link {
     margin-bottom: 1.5rem;
     background: none;
 }
-
-
-/* Lupa */
-
-.zoomerImg {
-    width: 100%;
-    opacity: 0;
-}
-
-.zoomerContainer .regular {
-    width: 100%;
-}
-
-.zoomerContainer .magnified {
-    width: 120%;
-    position: absolute;
-    top: 0%;
-    left: -50%;
-}
-
-.zoomer {
-    background: url(../../assets/images/module_1/content/Figura-7/2.jpg) no-repeat;
-    position: relative;
-}
-
-.small {
-    background: url(../../assets/images/module_1/content/Figura-7/1.jpg) no-repeat;
-}
-
-.zoomerContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.zoomer {
-    background-size: contain;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.small {
-    background-size: 130%;
-    height: 100%;
-    mask-image: radial-gradient(circle 0, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%);
-    -webkit-mask-image: radial-gradient(circle 0, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%);
-    width: 100%;
-}
-
-
-/*glass*/
-
-.mag {
-    display: none;
-    border: 14px solid #444;
-    border-radius: 50%;
-    pointer-events: none;
-    width: 145px;
-    height: 145px;
-    margin: -73px 0 0 -73px;
-    position: absolute;
-}
-
-
-/*handle*/
-
-.mag:after {
-    content: '';
-    position: absolute;
-    transform: rotate(-35deg);
-    height: 90px;
-    width: 18px;
-    background: #444;
-    bottom: -74px;
-    left: 110px;
-    border-radius: 15px;
-    box-sizing: border-box;
-}
-
-
-/* Fim Lupa */
-
-
-/* Image comparação */
 
 
 /* animation */

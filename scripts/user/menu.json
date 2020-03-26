@@ -1,6 +1,6 @@
 ﻿{
     "information": {
-        "modulo-numero": "MÓDULO 4",
+        "modulo-numero": "MÓDULO IV",
         "modulo-resumido": "M4",
         "modulo-nome": "Cardápio Base"
     },
@@ -12,35 +12,35 @@
         "prefix-name": "pages/capitulo_"
     },
     "pages": [{
-            "placeholder": "Apresentação",
+            "placeholder": "Presentación",
             "url": "pages/capitulo_0.html"
         },
         {
-            "placeholder": "Aula 1",
+            "placeholder": "Curso 1",
             "url": "pages/capitulo_1.html"
         },
         {
-            "placeholder": "Aula 2",
+            "placeholder": "Curso 2",
             "url": "pages/capitulo_2.html"
         },
         {
-            "placeholder": "Aula 3",
+            "placeholder": "Curso 3",
             "url": "pages/capitulo_3.html"
         },
         {
-            "placeholder": "Aula 4",
+            "placeholder": "Curso 4",
             "url": "pages/capitulo_4.html"
         },
         {
-            "placeholder": "Aula 5",
+            "placeholder": "Curso 5",
             "url": "pages/capitulo_5.html"
         },
         {
-            "placeholder": "Realize a atividade",
+            "placeholder": "Realizar la actividad",
             "url": "pages/capitulo_6.html"
         },
         {
-            "placeholder": "Referências",
+            "placeholder": "Referencias",
             "url": "pages/capitulo_7.html"
         }
     ]

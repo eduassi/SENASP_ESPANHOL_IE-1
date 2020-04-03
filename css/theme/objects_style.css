@@ -247,6 +247,10 @@
     z-index:3;
   }
 
+.pratica {
+    width: 200px;
+}
+
 .saiba-mais {
     border: 3px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
 }

@@ -81,3 +81,27 @@ h4.modal-title {
     perspective: 800px;
   }
 }
+
+
+
+/* NOVO */
+
+.aos-rw {
+  position: relative;
+  width: 100%;
+}
+
+.aos-rm {
+  position: relative;
+  width: 290px;
+}
+
+
+/* NOVO */
+
+.aos-pa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
